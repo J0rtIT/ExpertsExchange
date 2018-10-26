@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppendTextToJson", "AppendT
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCdontCallCorrectlyController", "MVCdontCallCorrectlyController\MVCdontCallCorrectlyController.csproj", "{26A3A580-385A-419A-ADB9-D0A08A0FA86B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringComparison", "StringComparison\StringComparison.csproj", "{3039DEEA-4686-4427-828E-878FBAD175AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCActionResultWithRedirect", "MVCActionResultWithRedirect\MVCActionResultWithRedirect.csproj", "{541160A6-A9A5-445B-98E9-D9D44E1EC63A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{26A3A580-385A-419A-ADB9-D0A08A0FA86B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{26A3A580-385A-419A-ADB9-D0A08A0FA86B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{26A3A580-385A-419A-ADB9-D0A08A0FA86B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3039DEEA-4686-4427-828E-878FBAD175AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3039DEEA-4686-4427-828E-878FBAD175AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3039DEEA-4686-4427-828E-878FBAD175AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3039DEEA-4686-4427-828E-878FBAD175AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
