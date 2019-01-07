@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringComparison", "StringC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCActionResultWithRedirect", "MVCActionResultWithRedirect\MVCActionResultWithRedirect.csproj", "{541160A6-A9A5-445B-98E9-D9D44E1EC63A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVCTableWhenDataisEmpty", "MVCTableWhenDataisEmpty\MVCTableWhenDataisEmpty.csproj", "{2D1ED2D7-F096-4F7C-96EE-B78C38EDC514}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{541160A6-A9A5-445B-98E9-D9D44E1EC63A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D1ED2D7-F096-4F7C-96EE-B78C38EDC514}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D1ED2D7-F096-4F7C-96EE-B78C38EDC514}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D1ED2D7-F096-4F7C-96EE-B78C38EDC514}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D1ED2D7-F096-4F7C-96EE-B78C38EDC514}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

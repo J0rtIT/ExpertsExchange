@@ -1,0 +1,70 @@
+﻿@model MVCTableWhenDataisEmpty.Models.DateClass
+
+@{
+    ViewBag.Title = "Table";
+}
+
+<h2>Table</h2>
+
+<table>
+    
+    <thead>Empty</thead>
+    <tbody>
+    <tr>
+        <td>@Model.EmptyDate</td>
+    </tr>
+
+
+    </tbody>
+
+    
+</table>
+
+
+<table>
+
+    <thead>Not Empty datetime</thead>
+    <tbody>
+    <tr>
+        <td>@Model.TodayDate</td>
+    </tr>
+    </tbody>
+</table>
+<br/>
+
+
+<table>
+    <thead>Mix</thead>
+    <tbody>
+    <tr>
+        @if (!(Model.isItEmpty(Model.EmptyDate)))
+        {
+            <td>Null</td>
+        }
+        else
+        {
+            <td>@Model.TodayDate</td>
+        }
+
+    </tr>
+    
+    
+    
+    <tr>
+        @*Change value*@
+
+        @{
+            Model.EmptyDate = @Model.TodayDate;
+        }
+        @if (!(Model.isItEmpty(Model.EmptyDate)))
+        {
+            <td>Null</td>
+        }
+        else
+        {
+            <td>@Model.TodayDate</td>
+        }
+
+    </tr>
+    </tbody>
+</table>
