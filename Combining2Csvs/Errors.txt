@@ -1,0 +1,3 @@
+﻿2019-01-22 The error is job not released
+2019-01-22 The error is incorect employee num
+2019-01-22 The error is invalid quantity

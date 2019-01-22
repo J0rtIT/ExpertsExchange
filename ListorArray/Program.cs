@@ -58,6 +58,7 @@ namespace ListorArray
                 Console.WriteLine($"{item.Id}\t{item.Name}\t{item.BulkData}");
             }
 
+            Console.WriteLine("================================\n");
 
         }
 
