@@ -25,6 +25,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Combining2Csvs", "Combining
 EndProject
 Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "VbWebApp", "VbWebApp\VbWebApp.vbproj", "{651789F9-29DA-40BD-A5C4-FE79B0B761CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FormatingText", "FormatingText\FormatingText.csproj", "{FE7429F8-7109-445B-9B94-775FE28D5317}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -75,6 +77,10 @@ Global
 		{651789F9-29DA-40BD-A5C4-FE79B0B761CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{651789F9-29DA-40BD-A5C4-FE79B0B761CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{651789F9-29DA-40BD-A5C4-FE79B0B761CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE7429F8-7109-445B-9B94-775FE28D5317}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE7429F8-7109-445B-9B94-775FE28D5317}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE7429F8-7109-445B-9B94-775FE28D5317}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE7429F8-7109-445B-9B94-775FE28D5317}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
